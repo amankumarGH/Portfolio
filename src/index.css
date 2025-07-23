@@ -12,3 +12,11 @@ body {
   color: white;
   font-family: outfit;
 }
+
+@layer utilities {
+  .text-gradient {
+    @apply bg-gradient-to-r from-purple-400 to-pink-600;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
