@@ -45,12 +45,13 @@ const Portfolio = () => {
       </div>
 
       <div className="bg-white text-black rounded-full hover:bg-pink-600 hover:text-white transition duration-500">
-        <Link
-          to="/comingsoon"
+        <a
+          href="https://github.com/amankumarGH"
           className="inline-block py-3 px-8 font-bold text-[1.25rem] "
+          target="_blank"
         >
           Show more
-        </Link>
+        </a>
       </div>
     </div>
   );
