@@ -3,8 +3,7 @@ import profile_img from "../assets/profile_img.jpeg";
 
 const Introduction = () => {
   return (
-    // <div className="">
-    <div className="flex flex-col items-center mt-16 gap-5">
+    <div className="flex flex-col items-center gap-5 mt-[150px]">
       <img
         src={profile_img}
         alt="profile_pic"
@@ -14,11 +13,12 @@ const Introduction = () => {
         <span className="bg-[linear-gradient(267deg,#DA7C25_0.36%,#B923E1_102.06%)] bg-clip-text text-gradient">
           I'm Aman Kumar,
         </span>{" "}
-        frontend developer based in INDIA.
+        developer based in INDIA.
       </h1>
       <p className="w-[50%] text-center text-[18px]">
-        I am a frontend developer from California, USA with 10 years of
-        experience in multiple companies like Microsoft, Tesla and Apple.
+        Turning ideas into fast, beautiful, and user-friendly web interfaces.
+        Passionate about clean design, efficient code, and great digital
+        experiences.
       </p>
       <div className="flex gap-12">
         <div className="py-[16px] px-[22px] rounded-full bg-[linear-gradient(267deg,#DA7C25_0.36%,#B923E1_102.06%)] cursor-pointer transition-all duration-500 border-2 border-transparent hover:border-white font-medium text-base">

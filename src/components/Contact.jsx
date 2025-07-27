@@ -4,7 +4,7 @@ import { IoCall } from "react-icons/io5";
 
 const Contact = () => {
   return (
-    <div className=" flex flex-col items-center mt-24 gap-5 justify-center">
+    <div className=" flex flex-col items-center mt-24 gap-5 justify-center" id="contact">
       <h1 className="text-[60px] font-bold">Get in touch</h1>
 
       <div className="flex justify-center gap-12 mt-12">

@@ -1,27 +1,32 @@
-import React from "react";
-// import logo from "../assets/logo.svg";
-import { Link } from "react-router-dom";
+import React, { useState } from "react";
 
 const Navbar = () => {
+  const [active, setActive] = useState("home");
+
+  const navItems = [
+    { id: "home", label: "Home", href: "/" },
+    { id: "aboutme", label: "About Me", href: "#aboutme" },
+    { id: "skills", label: "Skills", href: "#skills" },
+    { id: "portfolio", label: "Portfolio", href: "#portfolio" },
+    { id: "contact", label: "Contact", href: "#contact" },
+  ];
+
   return (
-    <div className="flex items-center justify-between my-5 mx-[170px]">
+    <div className="flex items-center justify-between my-5 mx-[170px]  fixed top-0 left-0 right-0 z-50 ">
       {/* <img src={logo} alt="logo" /> */}
-      <ul className="flex items-center list-none gap-[40px] text-[18px]">
-        <li>
-          <a href="/">Home</a>
-        </li>
-        <li>
-          <a href="#aboutme">About Me</a>
-        </li>
-        <li>
-          <a href="#services">Services</a>
-        </li>
-        <li>
-          <a href="#portfolio">Portfolio</a>
-        </li>
-        <li>
-          <a href="#contact">Contact</a>
-        </li>
+
+      <ul className="flex gap-6 bg-black/20 text-[18px] rounded-lg backdrop-blur-lg">
+        {navItems.map((item) => (
+          <li
+            key={item.id}
+            onClick={() => setActive(item.id)}
+            className={`p-3 rounded-md cursor-pointer transition-all duration-600 ${
+              active === item.id ? "bg-white text-black shadow-md" : ""
+            }`}
+          >
+            <a href={item.href}>{item.label}</a>
+          </li>
+        ))}
       </ul>
       <div className="py-[15px] px-[20px] rounded-full bg-[linear-gradient(267deg,#DA7C25_0.36%,#B923E1_102.06%)] cursor-pointer transition-all duration-500 hover:scale-105 font-medium text-base">
         Connect With Me
