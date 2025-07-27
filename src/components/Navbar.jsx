@@ -5,7 +5,7 @@ const Navbar = () => {
 
   const navItems = [
     { id: "home", label: "Home", href: "/" },
-    { id: "aboutme", label: "About Me", href: "#aboutme" },
+    { id: "about", label: "About Me", href: "#about" },
     { id: "skills", label: "Skills", href: "#skills" },
     { id: "portfolio", label: "Portfolio", href: "#portfolio" },
     { id: "contact", label: "Contact", href: "#contact" },
@@ -29,7 +29,7 @@ const Navbar = () => {
         ))}
       </ul>
       <div className="py-[15px] px-[20px] rounded-full bg-[linear-gradient(267deg,#DA7C25_0.36%,#B923E1_102.06%)] cursor-pointer transition-all duration-500 hover:scale-105 font-medium text-base">
-        Connect With Me
+        <a href="#contact">Connect With Me</a>
       </div>
     </div>
   );

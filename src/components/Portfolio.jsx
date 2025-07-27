@@ -23,7 +23,7 @@ const imgs = [
 
 const Portfolio = () => {
   return (
-    <div className="flex flex-col items-center gap-8 mt-16" id="portfolio">
+    <div className="flex flex-col items-center gap-8 mt-16 scroll-mt-24" id="portfolio">
       <h1 className="text-[60px] font-bold">My latest work</h1>
 
       <div className="grid grid-cols-3 gap-6">

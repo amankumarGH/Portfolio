@@ -22,7 +22,7 @@ const Skills = () => {
 
   return (
     <div
-      className="skills-container p-8 flex flex-col gap-10 mt-16 items-center"
+      className="skills-container p-8 flex flex-col gap-10 mt-16 items-center scroll-mt-24"
       id="skills"
     >
       <h1 className="text-6xl font-semibold mb-6 text-center">Skills</h1>

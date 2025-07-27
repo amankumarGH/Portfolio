@@ -1,10 +1,21 @@
 import React from "react";
 import { MdMarkEmailUnread } from "react-icons/md";
-import { IoCall } from "react-icons/io5";
+import github from "../assets/github.png";
+import linkedin from "../assets/linkedin.jpg";
+import leetcode from "../assets/leetcode.png";
 
 const Contact = () => {
+  const socialLinks = [
+    { img: github, links: "https://github.com/amankumarGH" },
+    { img: linkedin, links: "https://leetcode.com/u/amankumar7/" },
+    { img: leetcode, links: "https://www.linkedin.com/in/aman-kumar300/" },
+  ];
+
   return (
-    <div className=" flex flex-col items-center mt-24 gap-5 justify-center" id="contact">
+    <div
+      className=" flex flex-col items-center mt-24 gap-5 justify-center scroll-mt-24"
+      id="contact"
+    >
       <h1 className="text-[60px] font-bold">Get in touch</h1>
 
       <div className="flex justify-center gap-12 mt-12">
@@ -26,16 +37,25 @@ const Contact = () => {
           </div>
 
           <div className="flex gap-3 items-center">
-            <IoCall className="text-3xl text-gray-300" />
-            <p className="text-xl text-gray-300">+91 5964821545</p>
+            {socialLinks.map((item, idx) => {
+              return (
+                <a href={item.links} target="_blank" key={idx}>
+                  <img
+                    src={item.img}
+                    alt=""
+                    className="w-14 h-14 object-cover border-2 border-pink-700 rounded-md hover:scale-110 transition-all duration-500"
+                  />
+                </a>
+              );
+            })}
           </div>
         </div>
 
         {/* right flex */}
 
-        <div className="w-[50%] flex flex-col gap-4">
+        <div className="w-[45%] flex flex-col gap-4">
           <div className="flex flex-col gap-2 text-gray-300">
-            <label htmlFor="" >Your Name</label>
+            <label htmlFor="">Your Name</label>
             <input
               type="text"
               placeholder="Enter your name"
@@ -61,7 +81,7 @@ const Contact = () => {
             ></textarea>
           </div>
           <div className="w-fit py-[16px] px-[50px] rounded-full bg-[linear-gradient(267deg,#DA7C25_0.36%,#B923E1_102.06%)] cursor-pointer transition-all duration-500 border-2 border-transparent hover:border-white font-medium text-base">
-            Submit Now
+            <a href="/">Submit Now</a>
           </div>
         </div>
       </div>
