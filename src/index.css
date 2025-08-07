@@ -23,4 +23,9 @@ html {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
+  .text-gradient2 {
+    @apply bg-gradient-to-r from-purple-600 to-pink-800;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
 }
