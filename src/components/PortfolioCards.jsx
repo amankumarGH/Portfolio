@@ -7,11 +7,6 @@ import { FaExternalLinkAlt } from "react-icons/fa";
 const PortfolioCards = () => {
   const imgs = [
     {
-      address: "https://studygear.netlify.app/",
-      name: "StudySync",
-      img: project_1,
-    },
-    {
       address: "https://github.com/amankumarGH/Real-Time-Chat-App",
       name: "Real Time Talk",
       img: project_2,
@@ -20,6 +15,11 @@ const PortfolioCards = () => {
       address: "https://github.com/amankumarGH/Note-taking-app",
       name: "Note Taking App",
       img: project_3,
+    },
+    {
+      address: "https://studygear.netlify.app/",
+      name: "StudySync",
+      img: project_1,
     },
     // {
     //   address: "/comingsoon",
