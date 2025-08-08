@@ -48,14 +48,14 @@ Welcome to my personal developer portfolio! This site showcases my projects, ski
 ```
 ## 🛠️ Installation & Setup
 
-1. Clone the repository<br/>
-git clone https://github.com/yourusername/portfolio.git<br/><br/>
+- Clone the repository<br/>
+  git clone https://github.com/yourusername/portfolio.git
 
-2. Navigate to the project directory<br/>
-cd portfolio<br/><br/>
+- Navigate to the project directory<br/>
+  cd portfolio
 
-3. Install dependencies<br/>
-npm install<br/><br/>
+- Install dependencies<br/>
+  npm install
 
-4. Start the development server<br/>
-npm run dev
+- Start the development server<br/>
+  npm run dev
