@@ -39,9 +39,23 @@ Welcome to my personal developer portfolio! This site showcases my projects, ski
 ├── src
 │   ├── components/     # Reusable components (e.g., Navbar, Footer)
 │   ├── App.jsx
-│  ├── index.css
+│   ├── index.css
 │   ├── main.jsx
 ├── tailwind.config.js
 ├── postcss.config.js
 ├── README.md
 └── package.json
+```
+## 🛠️ Installation & Setup
+
+1. Clone the repository<br/>
+git clone https://github.com/yourusername/portfolio.git<br/><br/>
+
+2. Navigate to the project directory<br/>
+cd portfolio<br/><br/>
+
+3. Install dependencies<br/>
+npm install<br/><br/>
+
+4. Start the development server<br/>
+npm run dev
