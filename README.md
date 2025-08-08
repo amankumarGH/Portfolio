@@ -39,11 +39,9 @@ Welcome to my personal developer portfolio! This site showcases my projects, ski
 ├── src
 │   ├── components/     # Reusable components (e.g., Navbar, Footer)
 │   ├── App.jsx
-|   ├── index.css
+│  ├── index.css
 │   ├── main.jsx
 ├── tailwind.config.js
 ├── postcss.config.js
 ├── README.md
 └── package.json
-
-##aman
