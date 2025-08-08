@@ -12,7 +12,7 @@ Welcome to my personal developer portfolio! This site showcases my projects, ski
 
 👉 [Visit My Portfolio](https://amanhub.netlify.app)
 
-*(Replace the above link with your actual Netlify URL)*
+<!-- *(Replace the above link with your actual Netlify URL)* -->
 
 ## 📱 Features
 
@@ -21,15 +21,15 @@ Welcome to my personal developer portfolio! This site showcases my projects, ski
 - 🔗 Project cards with external links
 - 📧 Contact form section
 - 📄 Resume download button
-- 🔗 Social media links (GitHub, LinkedIn, LeetCode)
+- 🔗 Social media links ([GitHub](https://github.com/amankumarGH), [LinkedIn](https://www.linkedin.com/in/aman-kumar300/), [LeetCode](https://leetcode.com/u/amankumar7/))
 
 ## 📸 Screenshots
-<img width="1901" height="866" alt="Screenshot 2025-08-08 104557" src="https://github.com/user-attachments/assets/d59c51b6-a0fe-4664-bb18-09e74d29d897" />
+<img width="1893" height="400" alt="Screenshot 2025-08-08 104546" src="https://github.com/user-attachments/assets/cf8bef25-e452-4011-8c01-a7058ac12631" />
 
-<img width="1901" height="866" alt="image" src="https://github.com/user-attachments/assets/59249f42-5483-435b-ba69-7936ae224a3a" />
+<img width="1901" height="400" alt="image" src="https://github.com/user-attachments/assets/59249f42-5483-435b-ba69-7936ae224a3a" />
 
 
-*(Optional – Add screenshots here if you'd like)*
+<!-- *(Optional – Add screenshots here if you'd like)* -->
 
 ## 📁 Folder Structure
 
@@ -46,3 +46,4 @@ Welcome to my personal developer portfolio! This site showcases my projects, ski
 ├── README.md
 └── package.json
 
+##aman
