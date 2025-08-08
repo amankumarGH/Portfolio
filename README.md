@@ -10,7 +10,7 @@ Welcome to my personal developer portfolio! This site showcases my projects, ski
 
 ## 🌐 Live Site
 
-👉 [Visit My Portfolio](https://your-portfolio.netlify.app)
+👉 [Visit My Portfolio](https://amanhub.netlify.app)
 
 *(Replace the above link with your actual Netlify URL)*
 
@@ -24,6 +24,10 @@ Welcome to my personal developer portfolio! This site showcases my projects, ski
 - 🔗 Social media links (GitHub, LinkedIn, LeetCode)
 
 ## 📸 Screenshots
+<img width="1901" height="866" alt="Screenshot 2025-08-08 104557" src="https://github.com/user-attachments/assets/d59c51b6-a0fe-4664-bb18-09e74d29d897" />
+
+<img width="1901" height="866" alt="image" src="https://github.com/user-attachments/assets/59249f42-5483-435b-ba69-7936ae224a3a" />
+
 
 *(Optional – Add screenshots here if you'd like)*
 
@@ -31,11 +35,11 @@ Welcome to my personal developer portfolio! This site showcases my projects, ski
 
 ```bash
 ├── public
-│   └── index.html
+│   └── assets/         # Images and resume PDF
 ├── src
-│   ├── assets/         # Images and resume PDF
 │   ├── components/     # Reusable components (e.g., Navbar, Footer)
 │   ├── App.jsx
+|   ├── index.css
 │   ├── main.jsx
 ├── tailwind.config.js
 ├── postcss.config.js
