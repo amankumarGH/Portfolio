@@ -60,9 +60,11 @@ npm install
 npm run dev
 
 ```
+# 📦 Build for Production
+👉npm run build
 
 # 🧑‍💻 Author
-  Aman Kumar
+👉Aman Kumar
 
 📝 License
 This project is open source and available under the MIT License.
