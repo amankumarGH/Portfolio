@@ -21,7 +21,7 @@ Welcome to my personal developer portfolio! This site showcases my projects, ski
 - 🔗 Project cards with external links
 - 📧 Contact form section
 - 📄 Resume download button
-- 🔗 Social media links ([GitHub](https://github.com/amankumarGH), [LinkedIn](https://www.linkedin.com/in/aman-kumar300/), [LeetCode](https://leetcode.com/u/amankumar7/))
+- 🔗 Social media links ([🐙 GitHub](https://github.com/amankumarGH), [💼 LinkedIn](https://www.linkedin.com/in/aman-kumar300/), [💻 LeetCode](https://leetcode.com/u/amankumar7/))
 
 ## 📸 Screenshots
 <img width="600" height="400" alt="Screenshot 2025-08-08 104546" src="https://github.com/user-attachments/assets/cf8bef25-e452-4011-8c01-a7058ac12631" />
@@ -46,16 +46,23 @@ Welcome to my personal developer portfolio! This site showcases my projects, ski
 ├── README.md
 └── package.json
 ```
-## 🛠️ Installation & Setup
+```bash
+# Clone the repository
+git clone https://github.com/amankumarGH/portfolio.git
 
-- Clone the repository<br/>
-  git clone https://github.com/yourusername/portfolio.git
+# Navigate to the project directory
+cd portfolio
 
-- Navigate to the project directory<br/>
-  cd portfolio
+# Install dependencies
+npm install
 
-- Install dependencies<br/>
-  npm install
+# Start the development server
+npm run dev
 
-- Start the development server<br/>
-  npm run dev
+```
+
+#🧑‍💻 Author
+## Aman Kumar
+
+📝 License
+This project is open source and available under the MIT License.
